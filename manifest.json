@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Tanishq Gold Price Checker",
+    "version": "1.0",
+  
+    "permissions": ["scripting", "tabs", "activeTab"],
+    "host_permissions": ["https://www.tanishq.co.in/*"],
+  
+    "action": {
+      "default_popup": "popup.html"
+    },
+  
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
